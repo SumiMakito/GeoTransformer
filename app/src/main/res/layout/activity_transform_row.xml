@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?selectableItemBackground">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#20FFFFFF"
+        android:gravity="start|center_vertical"
+        android:padding="12dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#10FFFFFF"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textSize="15sp"
+        android:typeface="monospace"
+        tools:text="Value" />
+
+</TableRow>
